@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalpak Nemade</title>
+    <title>Coder | Shreya Agrawal</title>
     <!-- aos -->
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -34,13 +34,11 @@
     <script src="./js/script.js"></script>
 
     <script src="./js/moderjs.js"></script>
-
 </head>
-
 <body onload="loaddata()">
     <!-- navbar start -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
-        <a class="navbar-brand " href="./">Kalpak Nemade</a>
+        <a class="navbar-brand " href="./">SHREYA AGRAWAL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -78,7 +76,7 @@
     <div id="home" class="mt-3">
         <center>
             <img src="./img/2.jpg" id="myphoto" data-aos="zoom-in-up" data-aos-duration="500" class="rounded-circle mt-5" height="350px" width="350px">
-            <h3 class="mt-3 text-white" id="myname">Kalpak Jitendra Nemade</h3>
+            <h3 class="mt-3 text-white" id="myname">Shreya Paras Agrawal</h3>
             <!-- btn src of pdf of resume TO DO -->
             <div data-aos="fade-down" ata-aos-easing="linear" data-aos-duration="500">
                 <button type="button" onclick="loadsrc('resume')" class="btn btn-outline-dark my-3 text-white">View Resume</button><br>
@@ -86,24 +84,31 @@
                 <div class="template-demo">
                     <button type="button" onclick="loadsrc('facebook')" class="btn btn-social-icon btn-facebook btn-rounded mr-2">
                         <i class="fa fa-facebook fa-lg"></i>
+                        <!-- https://www.facebook.com/profile.php?id=100071514885043 -->
                     </button>
                     <button type="button" onclick="loadsrc('twitter')" class="btn mr-2 btn-social-icon btn-twitter btn-rounded">
                         <i class=" fa fa-twitter fa-lg"></i>
                     </button>
                     <button type="button" onclick="loadsrc('linkedin')" class="btn mr-2 btn-social-icon btn-linkedin btn-rounded">
                         <i class=" fa fa-linkedin fa-lg"></i>
+                        <!-- https://www.linkedin.com/in/shreyaagrawal03 -->
+
                     </button>
                     <button type="button" onclick="loadsrc('github')" class="btn mr-2 btn-social-icon btn-github btn-rounded">
                         <i class=" fa fa-github fa-lg"></i>
+                        <!-- https://github.com/Shrey63 -->
                     </button>
                     <button type="button" onclick="loadsrc('instagram')" class="btn mr-2 btn-social-icon btn-instagram btn-rounded">
                         <i class=" fa fa-instagram fa-lg"></i>
+                        <!-- http://www.instagram.com/garg_shreya_63 -->
                     </button>
                     <button type="button" onclick="loadsrc('whatsapp')" class="btn mr-2 btn-social-icon btn-whatsapp btn-rounded">
                         <i class=" fa fa-whatsapp fa-lg"></i>
+                        <!-- https://wa.me/919403233992 -->
                     </button>
                     <button type="button" onclick="loadsrc('telegram')" class="btn mr-2 btn-social-icon btn-telegram btn-rounded">
                         <i class=" fa fa-telegram fa-lg"></i>
+                        <!-- https://t.me/Shreya_64 -->
                     </button>
                 </div>
             </div>

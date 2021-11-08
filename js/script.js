@@ -42,7 +42,7 @@ function selectMenu(menu) {
 
 // script for load sorce start
 function loadsrc(srcid) {
-    // alert("hey");
+    alert("hey");
     var starCountRef = firebase.database().ref('home');
     // alert("hey1")
     starCountRef.on('value', (snapshot) => {
