@@ -1,0 +1,149 @@
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+body{
+    background-image: url('../img/1.jpg');
+    background-size: 100% 100%;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    
+}
+.fa{
+    font-family: "FontAwesome" !important;
+}
+.btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0
+}
+
+
+
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-gmail {
+    background: #e52d27;
+    color: #ffffff
+}
+
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff !important
+}
+
+.btn-github {
+    background: #303030;
+    color: #ffffff
+}
+
+.btn-linkedin {
+    background: #0177b5;
+    color: #ffffff
+}
+
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff
+}
+.btn-whatsapp {
+    background: #4bc658;
+    color: #ffffff
+}
+.btn-telegram {
+    background: #32a7d9;
+    color: #ffffff
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff
+}
+
+.btn-gmail:hover,
+.btn-gmail:focus {
+    background: #c21d17;
+    color: #ffffff
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff
+}
+
+.btn-github:hover,
+.btn-github:focus {
+    background: #272727;
+    color: #ffffff
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+    background: #015682;
+    color: #ffffff
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff
+}
+.btn-whatsapp:hover,
+.btn-whatsapp:focus {
+    background: #4bc658;
+    color: #ffffff
+}
+.btn-telegram:hover,
+.btn-telegram:focus {
+    background: #32a7d9;
+    color: #ffffff
+}
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.txt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.gap{
+    margin-top: 200px;
+    padding-top: 50px;
+}
+#myphoto {
+    display: block;
+    margin: 0 auto;
+    transition: box-shadow 0.1s, transform 0.1s;
+  }
+  
+  #myphoto:hover {
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.123);
+    cursor: pointer;
+  }
+  
+ 
+  
