@@ -11,7 +11,7 @@
     color: #ffffff;
 }
 body{
-    background-image: url('../img/1.jpg');
+    background-image: url('../img/logos/1.jpg');
     background-size: 100% 100%;
     background-color: rgba(0,0,0,0.7);
     background-blend-mode: darken;
@@ -59,11 +59,14 @@ body{
 }
 
 .btn-instagram {
-    background: #dc4a38;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);     
     color: #ffffff
 }
 .btn-whatsapp {
-    background: #4bc658;
+    background: #4FCE5D;
     color: #ffffff
 }
 .btn-telegram {
@@ -103,12 +106,15 @@ body{
 
 .btn-instagram:hover,
 .btn-instagram:focus {
-    background: #bf3322;
+    background: #f09433 40%; 
+    background: -moz-linear-gradient(45deg, #cc2366 0%, #bc1888 25%, #dc2743 50%, #f09433 75%, #e6683c 100%); 
+    background: -webkit-linear-gradient(45deg,#cc2366 0%,#bc1888 25% ,#dc2743 50%,#f09433 75%,#e6683c 100%); 
+    background: linear-gradient(45deg,#cc2366 0%,#bc1888 25%,#dc2743 50%, #f09433 75%,#e6683c 100%);    
     color: #ffffff
 }
 .btn-whatsapp:hover,
 .btn-whatsapp:focus {
-    background: #4bc658;
+    background: #4FCE5D	;
     color: #ffffff
 }
 .btn-telegram:hover,
@@ -140,10 +146,10 @@ body{
     transition: box-shadow 0.1s, transform 0.1s;
   }
   
-  /* #myphoto:hover {
+   #myphoto:hover {
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.123);
     cursor: pointer;
-  } */
+  } 
   
  
   

@@ -1,18 +1,6 @@
 
 // onload start
 function loaddata() {
-    var starCountRef = firebase.database().ref('home');
-    starCountRef.on('value', (snapshot) => {
-        const data = snapshot.val();
-        document.getElementById("myphoto").src = data.img
-        document.getElementById("myname").innerHTML = data.name
-    });
-    var starCountRef = firebase.database().ref('about');
-    starCountRef.on('value', (snapshot) => {
-        const data = snapshot.val();
-        document.getElementById("aboutphoto").src = data.img
-        document.getElementById("abouttext").innerHTML = data.abouttext
-    });
 }
 // onload end
 // script for highlighting menuitem start
@@ -42,39 +30,32 @@ function selectMenu(menu) {
 
 // script for load sorce start
 function loadsrc(srcid) {
-    alert("hey");
-    var starCountRef = firebase.database().ref('home');
-    // alert("hey1")
-    starCountRef.on('value', (snapshot) => {
-        const data = snapshot.val();
-
         switch (srcid) {
             case "facebook":
-                window.location.href = data.facebook;
+                window.location.href ="http://www.facebook.com/profile.php?id=100071514885043";
                 break;
-            case "twitter":
-                window.location.href = data.twitter;
-                break;
+            //case "twitter":
+              //  window.location.href ="#";
+                //break;
             case "telegram":
-                window.location.href = data.telegram;
+                window.location.href ="https://t.me/Shreya_64";
                 break;
             case "whatsapp":
-                window.location.href = data.whatsapp;
+                window.location.href ="https://wa.me/919403233992";
                 break;
             case "linkedin":
-                window.location.href = data.linkedin;
+                window.location.href ="https://www.linkedin.com/in/shreyaagrawal03";
                 break;
             case "instagram":
-                window.location.href = data.instagram;
+                window.location.href ="http://www.instagram.com/garg_shreya_63";
                 break;
             case "github":
-                window.location.href = data.github;
+                window.location.href = "https://github.com/Shrey63";
                 break;
             case "resume":
-                window.location.href = data.resume;
+                window.location.href = "#";
                 break;
-        }
-    });
+    };
 }
 
 // script for load sorce end
