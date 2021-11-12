@@ -4,12 +4,33 @@
     font-weight: bold;
     color: #ffffff;
 }
+a{
+    color:mistyrose;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 .nav-item{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
-    font-weight: bold;
-    color: #ffffff;
+    font-weight: normal;
 }
+.nav-item :hover,
+.nav-item :focus{
+    font-weight:550;
+    color:mistyrose;
+   
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
 body{
     background-image: url('../img/logos/co.jpeg');
     background-size: 100% 100%;
