@@ -4,30 +4,36 @@ function loaddata() {
 }
 // onload end
 // script for highlighting menuitem start
-function selectMenu(menu) {
-    document.getElementById("homeid").className = "nav-item";
-    document.getElementById("aboutid").className = "nav-item";
-    document.getElementById("expid").className = "nav-item";
-    document.getElementById("eduid").className = "nav-item";
-    document.getElementById("skillid").className = "nav-item";
-    document.getElementById("workid").className = "nav-item";
-    switch (menu) {
-        case "home":
-            document.getElementById("homeid").className = document.getElementById("homeid").className + " active"; break;
-        case "about":
-            document.getElementById("aboutid").className = document.getElementById("aboutid").className + " active"; break;
-        case "exp":
-            document.getElementById("expid").className = document.getElementById("expid").className + " active"; break;
-        case "edu":
-            document.getElementById("eduid").className = document.getElementById("eduid").className + " active"; break;
-        case "skill":
-            document.getElementById("skillid").className = document.getElementById("skillid").className + " active"; break;
-        case "work":
-            document.getElementById("workid").className = document.getElementById("workid").className + " active"; break;
-    }
-}
+// function selectMenu(menu) {
+//     document.getElementById("homeid").className = "nav-item";
+//     document.getElementById("aboutid").className = "nav-item";
+//     document.getElementById("expid").className = "nav-item";
+//     document.getElementById("eduid").className = "nav-item";
+//     document.getElementById("skillid").className = "nav-item";
+//     document.getElementById("workid").className = "nav-item";
+//     Change(menu);
+//     switch (menu) {
+//         case "home":
+//             document.getElementById("homeid").className = document.getElementById("homeid").className + " active";
+//              break;
+//         case "about":
+//             document.getElementById("aboutid").className = document.getElementById("aboutid").className + " active";
+//            break;
+//         case "exp":
+//             document.getElementById("expid").className = document.getElementById("expid").className + " active"; break;
+//         case "edu":
+//             document.getElementById("eduid").className = document.getElementById("eduid").className + " active"; break;
+//         case "skill":
+//             document.getElementById("skillid").className = document.getElementById("skillid").className + " active"; break;
+//         case "work":
+//             document.getElementById("workid").className = document.getElementById("workid").className + " active"; break;
+//     }
+// }
 // script for highlighting menuitem end
-
+function selectMenu(menuitem){
+    var s=document.getElementById(menuitem);
+   s.style=" font-weight:550;color:mistyrose;-webkit-animation: glow 1s ease-in-out infinite alternate;-moz-animation: glow 1s ease-in-out infinite alternate;animation: glow 1s ease-in-out infinite alternate;"
+}
 // script for load sorce start
 function loadsrc(srcid) {
         switch (srcid) {
