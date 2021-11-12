@@ -8,8 +8,6 @@ a{
     color:mistyrose;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-
-
 .nav-item{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
@@ -157,7 +155,7 @@ body{
 }
 .btn-whatsapp:hover,
 .btn-whatsapp:focus {
-    background: #4FCE5D	;
+    background: #25d366;
     color: #ffffff;
 }
 .btn-telegram:hover,

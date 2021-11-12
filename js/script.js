@@ -31,8 +31,20 @@ function loaddata() {
 // }
 // script for highlighting menuitem end
 function selectMenu(menuitem){
-    var s=document.getElementById(menuitem);
-   s.style=" font-weight:550;color:mistyrose;-webkit-animation: glow 1s ease-in-out infinite alternate;-moz-animation: glow 1s ease-in-out infinite alternate;animation: glow 1s ease-in-out infinite alternate;"
+    var arr=['homeid','aboutid','eduid','skillid','workid'];
+            var s=document.getElementById(menuitem);
+            s.style="colr:mistyrose;font-weight:550;color:mistyrose;-webkit-animation: glow 1s ease-in-out infinite alternate;-moz-animation: glow 1s ease-in-out infinite alternate;animation: glow 1s ease-in-out infinite alternate;"    
+    for (m of arr)
+    {   
+        if(m.localeCompare(menuitem))
+        {
+            unselectMenu(m);
+        }
+    }
+}
+function unselectMenu(unselectedmenuitem)
+{
+    document.getElementById(unselectedmenuitem).style=" color:mistyrose;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;";
 }
 // script for load sorce start
 function loadsrc(srcid) {
@@ -65,5 +77,3 @@ function loadsrc(srcid) {
 }
 
 // script for load sorce end
-
-
