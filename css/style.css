@@ -6,28 +6,24 @@
 }
 a{
     color:mistyrose;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav-item{
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
-    font-weight: normal;
+    font-weight: 200;
 }
 .nav-item :hover,
 .nav-item :focus{
-    font-weight:550;
+    font-weight:500;
     color:mistyrose;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
-.nav-link:active{
-    
-}
-
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
@@ -42,6 +38,17 @@ body{
     background-attachment: fixed;
     
 }
+.link_style,
+.link_style:hover{
+    font-size: 1.4em;
+    text-decoration: none;
+    color:rgb(245, 133, 4);
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+    }
 .fa{
     font-family: "FontAwesome" !important;
 }
@@ -178,6 +185,7 @@ body{
     -webkit-text-fill-color: transparent;
         background-color: #ccff99;
     background-size: 100%;
+    letter-spacing: 3px;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 

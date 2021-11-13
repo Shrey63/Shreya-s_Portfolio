@@ -33,7 +33,8 @@ function loaddata() {
 function selectMenu(menuitem){
     var arr=['homeid','aboutid','eduid','skillid','workid'];
             var s=document.getElementById(menuitem);
-            s.style="colr:mistyrose;font-weight:550;color:mistyrose;-webkit-animation: glow 1s ease-in-out infinite alternate;-moz-animation: glow 1s ease-in-out infinite alternate;animation: glow 1s ease-in-out infinite alternate;"    
+            s.style="-webkit-animation: glow 1s ease-in-out infinite alternate;-moz-animation: glow 1s ease-in-out infinite alternate;animation: glow 1s ease-in-out infinite alternate;   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073; text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;"    
+            s.style.fontWeight=500;
     for (m of arr)
     {   
         if(m.localeCompare(menuitem))
@@ -44,7 +45,7 @@ function selectMenu(menuitem){
 }
 function unselectMenu(unselectedmenuitem)
 {
-    document.getElementById(unselectedmenuitem).style=" color:mistyrose;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;";
+    document.getElementById(unselectedmenuitem).style="color:mistyrose;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 // script for load sorce start
 function loadsrc(srcid) {
