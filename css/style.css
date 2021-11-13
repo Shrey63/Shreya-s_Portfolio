@@ -4,7 +4,7 @@
     font-weight: bold;
     color: #ffffff;
 }
-a{
+/* a{
     color:mistyrose;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,15 +28,47 @@ a{
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
+  } */
+  nav ul li a {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    /* font-weight: 100; */
+    color: mistyrose;
+}  
+  nav ul li.active{
+      font-weight:00;
+    color:mistyrose;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
   }
-  
+  nav ul li.active a {
+    color:mistyrose;
+    font-weight: 500;;
+ }
+  nav ul li a:hover{
+    font-weight:500;
+    color:mistyrose;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  } 
+ 
 body{
     background-image: url('../img/logos/co.jpeg');
     background-size: 100% 100%;
     background-color: rgba(0,0,0,0.8);
     background-blend-mode: darken;
     background-attachment: fixed;
-    
 }
 .link_style,
 .link_style:hover{

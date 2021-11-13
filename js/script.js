@@ -1,34 +1,44 @@
-
-// onload start
-function loaddata() {
-}
-// onload end
-// script for highlighting menuitem start
-// function selectMenu(menu) {
-//     document.getElementById("homeid").className = "nav-item";
-//     document.getElementById("aboutid").className = "nav-item";
-//     document.getElementById("expid").className = "nav-item";
-//     document.getElementById("eduid").className = "nav-item";
-//     document.getElementById("skillid").className = "nav-item";
-//     document.getElementById("workid").className = "nav-item";
-//     Change(menu);
-//     switch (menu) {
-//         case "home":
-//             document.getElementById("homeid").className = document.getElementById("homeid").className + " active";
-//              break;
-//         case "about":
-//             document.getElementById("aboutid").className = document.getElementById("aboutid").className + " active";
-//            break;
-//         case "exp":
-//             document.getElementById("expid").className = document.getElementById("expid").className + " active"; break;
-//         case "edu":
-//             document.getElementById("eduid").className = document.getElementById("eduid").className + " active"; break;
-//         case "skill":
-//             document.getElementById("skillid").className = document.getElementById("skillid").className + " active"; break;
-//         case "work":
-//             document.getElementById("workid").className = document.getElementById("workid").className + " active"; break;
+sectio = body.getElementsByTagName("section");
+alert(sectio[0]);
+// const navLi = document.querySelectorAll("nav .container ul li");
+// window.addEventListener("scroll", () => {
+//   let current = "";
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop;
+//     const sectionHeight = section.clientHeight;
+//     if (pageYOffset >= sectionTop - sectionHeight / 3) {
+//       current = section.getAttribute("id");
 //     }
-// }
+//   });
+
+//   navLi.forEach((li) => {
+//     li.classList.remove("active");
+//     if (li.classList.contains(current)) {
+//       li.classList.add("active");
+//     }
+//   });
+// });
+
+// *********************
+// This Code is for only the floating card in right bottom corner
+// **********************
+
+const WebCifarIcon = document.querySelector("#webCifar-icon");
+const WebCifarEl = document.querySelector("#webCifar");
+const close = WebCifarEl.querySelector(".close");
+const youtubeLink = document.querySelector(".youtubeLink");
+
+WebCifarIcon.addEventListener("click", () => {
+  WebCifarEl.classList.add("active");
+});
+close.addEventListener("click", () => {
+  WebCifarEl.classList.remove("active");
+});
+
+youtubeLink.setAttribute("href", "https://youtu.be/RsPWEmfOQdU");
+
+
+
 // script for highlighting menuitem end
 function selectMenu(menuitem){
     var arr=['homeid','aboutid','eduid','skillid','workid'];
@@ -76,5 +86,4 @@ function loadsrc(srcid) {
                 break;
     };
 }
-
 // script for load sorce end
