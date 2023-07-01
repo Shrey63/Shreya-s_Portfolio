@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    /* CSS styles for your webpage */
-    /* body {
-        background-color: #f0f0f0; Example background color
-    } */
-</style>
+    <style>
+        #output {
+          background-color: transparent;
+          border: 1px solid #ccc;
+          padding: 20px;
+          margin: 20px;
+          font-family: Arial, sans-serif;
+          color: white;
+        }
+    
+        h2 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+    
+        p {
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+    
+        a {
+          color: #0366d6;
+          text-decoration: none;
+        }
+      </style>
 <script>
-const url = 'https://today-in-history.p.rapidapi.com/thisday';
-const options = {
-  method: 'GET',
-  headers: {
-    'X-RapidAPI-Key': '208b306e46msh4654e204eb49232p1fe030jsn0b79c6e2b12b',
-    'X-RapidAPI-Host': 'today-in-history.p.rapidapi.com'
-  }
-};
+    async function fetchAPIContent() {
+      const url = 'https://today-in-history.p.rapidapi.com/thisday';
+      const options = {
+        method: 'GET',
+        headers: {
+          'X-RapidAPI-Key': '208b306e46msh4654e204eb49232p1fe030jsn0b79c6e2b12b',
+          'X-RapidAPI-Host': 'today-in-history.p.rapidapi.com'
+        }
+      };
 
-const outputElement = document.getElementById('output'); // Replace 'output' with the id of your HTML output tag
+      const outputElement = document.getElementById('output');
 
-try {
-  const response = await fetch(url, options);
-  const result = await response.text();
-  outputElement.innerHTML = result; // Set the innerHTML of the output element to the API result
-} catch (error) {
-  console.error(error);
-}
-</script>
-    <meta charset="UTF-8">
+      try {
+        const response = await fetch(url, options);
+        const result = await response.json();
+
+        const article = result.article;
+        const title = article.title;
+        const date = article.date;
+        const articleUrl = article.url;
+
+        const html = `
+          <h2>${title}</h2>
+          <p>Date: ${date}</p>
+          <p>URL: <a href="${articleUrl}">${articleUrl}</a></p>
+        `;
+
+        outputElement.innerHTML = html;
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  </script>
+      <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shreya Agrawal</title>
@@ -139,6 +172,9 @@ try {
     <!-- home section end -->
     <section>
     <div id="output"></div>
+    <script>
+        fetchAPIContent();
+      </script>
 </section>
     <!-- about section Strat -->
     <section id="about" class="gap">
