@@ -12,6 +12,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
     font-weight: 200;
+    
 }
 .nav-item :hover,
 .nav-item :focus{
@@ -35,6 +36,7 @@
     font-size: 1.1em;
     /* font-weight: 100; */
     color: mistyrose;
+    padding-right: 10px;
 }  
   nav ul li.active{
       font-weight:00;
@@ -72,13 +74,14 @@ body{
 }
 .link_style,
 .link_style:hover{
-    font-size: 1.4em;
+    font-size:30px;
+    padding-top: 10px;
     text-decoration: none;
     color:rgb(245, 133, 4);
-    font-size: large;
+    /* font-size: larger; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight:bold;
     
     }
 .fa{
@@ -203,12 +206,51 @@ body{
     background-color: linear-gradient(to left, #5fb8e7, #1c92d2); 
     color: #ffffff
 }
+.text-overlay {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    /* text-align: center; */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    /* border-radius: 5px; */
+  }
+  
 .title{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:2.7em;
     font-weight: bold;
     margin-top: 20px;
 }
+.resume-link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background:fixed;
+    color: #fff;
+    border:1px solid white;
+    border-radius: 4pc;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    align-items: center;
+  }
+  
+  .resume-link:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
 .gradient-text {
     background: #43C6AC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -222,9 +264,10 @@ body{
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
+    /* padding-bottom: 15px;     */
 }
 .txt{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
     margin-left: 10%;
     margin-right: 10%;

@@ -90,7 +90,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top " >
         <div class="container-fluid">
-        <a class="navbar-brand "  id="mylogo" ><b>SHREYA AGRAWAL|CODER</b></a>
+        <!-- <a class="navbar-brand "  id="mylogo" ><b>SHREYA AGRAWAL|CODER</b></a> -->
         <button class="navbar-toggler" type="button" id="btn-style" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon-lg">Menu</span>
         </button>
@@ -99,9 +99,9 @@
                 <li class="nav-item active" id="homeid">
                     <a class="nav-link" onclick="selectMenu('homeid')" href="#home">Home </a>
                 </li>
-                <li class="nav-item" id="aspid">
+                <!-- <li class="nav-item" id="aspid">
                     <a class="nav-link" onclick="selectMenu('aspid')" href="#asp">About Day </a>
-                </li>
+                </li> -->
                 <li class="nav-item" id="aboutid">
                     <a class="nav-link" onclick="selectMenu('aboutid')" href="#about">About Me</a>
                 </li>
@@ -171,12 +171,16 @@
                 </div>
 
             </div>
+            <div>
+                <a href="img/ShreyaAgrawalResume.pdf" download class="resume-link">Download Resume</a>
+              </div>
+            
         </center>
     </section>
     <!-- home section end -->
 
 
-    <section id="asp" class="gap">
+    <!-- <section id="asp" class="gap">
        
         <center>
             <br><br><br>
@@ -191,19 +195,15 @@
                         <script>
                             fetchAPIContent();
                           </script>                        
-                        <!-- <p class="card-text">Batch (2022-2025)</p> -->
+            
 
                     </div>
-                    <!-- <div class="card-body ">
-                        <h5 class="card-title">Completed diploma in Computer Science from Goverment Polytechnic, Jalgaon</h5>
-                        <p class="card-text">Batch (2019-2021)</p>
 
-                    </div> -->
                 </div>
             </div>
         </div>
         </section>
-        <br><br><br>
+        <br><br><br> -->
     <!-- <section>
     <div id="output"></div> -->
     <!-- <script>
@@ -214,17 +214,20 @@
     <section id="about" class="gap">
 <br><br><br>
         <center>
-            <h3 class="title"><span class="gradient-text">About me</span></h3><br>
+            <h3 class="title"><span class="gradient-text">Me in Nutshell</span></h3><br>
         </center>
         <div class="container-fluid  ">
             <div data-aos="fade-down" ata-aos-easing="linear" data-aos-duration="1000">
-                <div class="row text-white border border-white  rounded p-3 txt">
+                <div class="row text-white border border-white  rounded p-3 txt text-overlay">
                     <div class="col-lg-7 col-md-7 col-8 my-3 ">
-                        <h2>Who am I?</h2>
-                        <div id="abouttext">
-                            Shreya here, I am 20 pursuing B. Tech. in Computer Science from MKSSS's Cummins College of Engineering , Pune.<br>
-                            I have completed my Diploma in Computer Science from Government Polytechnic, Jalgaon.<br>
-                            <b>A Full Stack Developer</b>, living in Pune Maharashtra.
+                        <div  class="text-overlay">
+                            <h2 class="text-overlay" style="font-size:xx-large;"><b>Hey there!🙋‍♀️</b></h2>
+                            I'm Shreya Agrawal, a 20-year-old Computer Science student pursuing B.Tech. at MKSSS's Cummins College of Engineering in Pune, Maharashtra. 
+                            As a Full Stack Developer, I'm truly passionate about programming and 
+                            have a strong foundation in Data Structures and Algorithms. I love exploring different programming languages and constantly strive to 
+                            expand my knowledge and skills. Problem-solving is my forte, and I thrive on challenges. 
+                            With my dedication, enthusiasm, and continuous growth mindset, I'm always ready to take on new programming ventures and 
+                            make a valuable contribution.
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-8">
@@ -236,24 +239,7 @@
     </section>
     <!-- about section end -->
 
-    <!-- exprience section Strat Todo hide it -->
-    <section id="exp" class="gap" style="display:none">
-        <center>
-            <h3 class="title"><span class="gradient-text">Experience</span></h3>
-        </center>
-        <div data-aos="fade-right" ata-aos-easing="linear" data-aos-duration="1000">
-            <div class="col-sm-3 ml-auto mr-auto ">
-                <div class="card  bg-transparent text-white border border-white  rounded   ">
-                    <div class="card-body ">
-                        <h5 class="card-title">Shreya pvt. ltd.</h5>
-                        <p class="card-text">As a Full stack Web-developer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- exprience section end -->
-
+    
     <!-- education section start -->
     <section id="edu" class="gap">
        
@@ -262,24 +248,52 @@
             <h3 class="title"><span class="gradient-text">Education</span></h3>
         </center>
         <br>
-        <div data-aos="fade-down" ata-aos-easing="linear" data-aos-duration="1000">
+
+        <div class="container-fluid ">
+            <div data-aos="fade-down" ata-aos-easing="linear" data-aos-duration="1000">
+                <div class="row text-white border border-white  rounded p-3 txt text-overlay">
+                    <div class="col-lg-7 col-md-7 col-8 my-3 ">
+                        
+                        <div  class="">
+                            <h2 style="font-size:xx-large;"><b>B. Tech. 💻</b></h2><br>
+                            <h5 class="card-title">Computer Science aspirant at MKSSS's Cummins College of Engineering for Women, Pune</h5>
+                            <h5 class="card-title">Batch (2022-2025)</h5>
+                            <br>
+                            <h5 class="card-title">Diploma in Computer Science from Government Polytechnic, Jalgaon</h5>
+                        <h5 class="caed-title">Batch (2019-2021)</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-8">
+                        <img src="./img/logos/book.png" id="aboutphoto" alt="" width="100%" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div data-aos="fade-down" ata-aos-easing="linear" data-aos-duration="1000">
             <div class="col-sm-4 ml-auto mr-auto my-2">
                 <div class="card  bg-transparent text-white border border-white  rounded   ">
-                    <div class="card-body ">
-                        <h5 class="card-title">Computer Science aspirant at MKSSS's Cummins College of Engineering, Pune</h5>
+                    <div class="card-body text-overlay">
+                        <h5 class="card-title">Computer Science aspirant at MKSSS's Cummins College of Engineering for Women, Pune</h5>
                         <p class="card-text">Batch (2022-2025)</p>
 
                     </div>
-                    <div class="card-body ">
-                        <h5 class="card-title">Completed diploma in Computer Science from Goverment Polytechnic, Jalgaon</h5>
+                    <div class="card-body text-overlay">
+                        <h5 class="card-title">Diploma in Computer Science from Government Polytechnic, Jalgaon</h5>
                         <p class="card-text">Batch (2019-2021)</p>
 
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-8">
+                        <img src="./img/logos/book.png" id="aboutphoto" alt="" width="100%" height="100%">
                     </div>
 
                 </div>
                 
             </div>
-        </div>
+           
+        </div>-->
         </section>
         <br><br><br>
         <!-- education section end -->
@@ -374,73 +388,7 @@
             <center>
                 <h3 class="title"><span class="gradient-text">My Work</span></h3>
             </center>
-            <!-- <div class=" text-center row justify-content-center align-items-center ml-lg-auto mr-lg-auto" data-aos="fade-down" ata-aos-easing="linear" data-aos-duration="500">
-                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
-                    <img class="card-img-top" src="./img/shield.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">
-                            <h4>
-                                Shield 4.0
-                            </h4>
-                            Project for state level event Sheild 4.0; project provides registration for event, conducting quiz examination, genrate the result, send the certificate with the countribution of Kalpak, Aditya, Vishal, Mahesh
-                        </p>
-                    </div>
-                </div>
-                <br>
-                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
-                    <img class="card-img-top" src="./img/ahm.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <h4>Android Health-Monitering System</h4>
-                        Project with two modules android and web-application for monitoring health using pedometer with the contribution of Aditya, Vishal, Komal.
-                        </p>
-                    </div>
-                </div>
-                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
-                    <img class="card-img-top" src="./img/ahm2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <h4>Android Health-Monitering System</h4>
-                        Project with two modules android and web-application for monitoring health using pedometer of different version with the contribution of Aditya.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
-                    <img class="card-img-top" src="./img/eschool.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <h4>
-                            E-School
-                        </h4>
-                        E School website for school management system function like applying for cource, new cource, payment and many more.Devloped in php
-                        </p>
-                    </div>
-                </div>
-                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
-                    <img class="card-img-top" src="./img/cricketclub.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <h4>
-                            Cricket Club management
-                        </h4>
-                        Project for managing cricket club; project provide ground booking, batch booking and many more; with the countribution of Aditya
-                        </p>
-                    </div>
-                </div>
-                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
-                    <img class="card-img-top" src="./img/examcell.png" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">
-                        <h4>
-                            Exam Cell Automation
-                        </h4>
-                        Project for the managing exam process; project provide notices to display, applying for exam, hallticket, exam, result and many more with the countribution of Aditya, Vishal, Komal
-                        </p>
-                    </div>
-                </div>
-
-            </div> -->
+          
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12">
@@ -527,40 +475,55 @@
             
                                     
                                 </div>
-                               <!-- <div class="carousel-item">
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        </section>
+        <section  class="gap">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="inam" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
                                      <div class="container">
-                                          <div class="row">
+                                        <center><p><a class="link_style" style="color:plum;" href="#">Clothiify</a></p></center> 
+                                         <div class="row">
                                              <div class="col-sm-12 col-lg-4">
-                                                 <div class="card" style="width: 300px;margin: auto;">
-                                                     <img src="images/d.jpg" class="card-img-top">
+                                                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                    <img src="./img/projects/c1.png" class="card-img-top">
                                                      <div class="card-body">
-                                                         <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                                                         
+                                                         <p class="card-text">This project is developed in order to digitalize the Abhishieks which are
+                                                            carried out at sacred Temples of lord shiva. </p>                                                         
                                                      </div>
                                                      
                                                  </div>
                                                  
                                              </div>
                                              <div class="col-sm-12 col-lg-4">
-                                                 <div class="card" style="width: 300px;">
-                                                     <img src="images/e.jpg" class="card-img-top">
+                                                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                    <img src="./img/projects/c2.png" class="card-img-top">
                                                      <div class="card-body">
-                                                         <h4 class="card-title">Why you should use skin masks ?</h4>
-                                                         <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                                                         <button type="button" class="btn btn-warning">Read More</button>
-                                                         
+                                                         <p class="card-text">The system allows the general people
+                                                            living far away from these places to register for havan there without reaching
+                                                            physically.</p>                                                         
                                                      </div>
                                                      
                                                  </div>
                                                  
                                              </div>
                                              <div class="col-sm-12 col-lg-4">
-                                                 <div class="card" style="width: 300px;">
-                                                     <img src="images/f.jpg" class="card-img-top">
+                                                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                    <img src="./img/projects/c3.png" class="card-img-top">
                                                      <div class="card-body">
-                                                         <h4 class="card-title">Why you should use skin masks ?</h4>
-                                                         <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
-                                                         <button type="button" class="btn btn-warning">Read More</button>
+                                                         <p class="card-text">After the verification of user using basic credentials, he/she eligible for havan at any of 5
+                                                            jyotirlinga's of Shiva.</p>
                                                          
                                                      </div>
                                                      
@@ -569,27 +532,86 @@
                                              </div>
                                              
                                          </div>
-                                         
-                                     </div>
+                                         <!-- row ends -->
+                                         <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                               <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                   <img src="./img/projects/c4.png" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <p class="card-text">The user just need to register themselves to the system by inputting the
+                                                            basic credentials to perform havan/Pooja.</p>                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                               <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                   <img src="./img/projects/c5.png" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <p class="card-text">There is also a feedback form to get the feedback of users about their experince of Service.</p>                                                    </div>                                       
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                               <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                   <img src="./img/projects/c6.png" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <p class="card-text">This site is developed and successfully deployed by me with the contribution of Rakshanda Giri and Shrutika Mahajan.</p>                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                    <img src="./img/projects/c7.png" class="card-img-top">
+                                                     <div class="card-body">
+                                                         <p class="card-text">This site is developed and successfully deployed by me with the contribution of Rakshanda Giri and Shrutika Mahajan.</p>                                                        
+                                                     </div>
+                                                     
+                                                 </div>
+                                                 
+                                             </div>
+                                             <div class="col-sm-12 col-lg-4">
+                                                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                    <img src="./img/projects/c8.png" class="card-img-top">
+                                                     <div class="card-body">
+                                                         <p class="card-text">This site is developed and successfully deployed by me with the contribution of Rakshanda Giri and Shrutika Mahajan.</p>                                                        
+                                                     </div>
+                                                     
+                                                 </div>
+                                                 
+                                             </div>
+                                             <div class="col-sm-12 col-lg-4">
+                                                <div class="card bg-transparent text-white border border-white  rounded mx-3 my-3" style="width: 22rem;">
+                                                    <img src="./img/projects/c9.png" class="card-img-top">
+                                                     <div class="card-body">
+                                                         <p class="card-text">This site is developed and successfully deployed by me with the contribution of Rakshanda Giri and Shrutika Mahajan.</p>                                                        
+                                                     </div>
+                                                     
+                                                 </div>
+                                                 
+                                             </div>
+
+                                        </div>
+                                        <!-- row ends -->
+                                    
+                                     
+                                        </div>
             
                                     
-                                </div> 
-                                
-                            </div>
-                            <a href="#inam" class="carousel-control-prev" data-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </a>
-                            <a href="#inam" class="carousel-control-next" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </a>
-                            
-                        </div>-->
+                                </div>
+                        
                         
                     </div>
                     
                 </div>
                 
             </div>
+        </div>
+        </div>
+        </section>
             <br><br>
             
             
