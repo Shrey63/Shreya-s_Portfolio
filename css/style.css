@@ -79,7 +79,7 @@ body{
     text-decoration: none;
     color:rgb(245, 133, 4);
     /* font-size: larger; */
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:cursive;
     letter-spacing: 2px;
     font-weight:bold;
     
@@ -249,7 +249,30 @@ body{
     text-decoration: none;
     color: white;
   }
+
+  .view-link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 10px;
+    background:fixed;
+    color: #fff;
+    border:1px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    align-items: center;
+  }
   
+  .view-link:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+
   
 .gradient-text {
     background: #43C6AC;  /* fallback for old browsers */
@@ -294,7 +317,13 @@ body{
      color:black;
      vertical-align:middle;
  }
-
+ .overlay {
+    
+    
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+  }
  
   /* background: #C33764;  /* fallback for old browsers */
 /* background: -webkit-linear-gradient(to right, #1D2671, #C33764);  Chrome 10-25, Safari 5.1-6 */
